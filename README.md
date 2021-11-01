@@ -1,5 +1,5 @@
 # LuckyAZ
-A small game about randomness and luckiness
+A small game about luck and randomness
 
 Game rules:
 - The game will generate a "random walk" with character from A to Z across 10x10 box matrix. The "walk" is continuous from one box to another.
