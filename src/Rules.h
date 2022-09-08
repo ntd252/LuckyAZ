@@ -242,13 +242,14 @@ namespace LuckyAZ {
 		IntPtr hinst = Marshal::GetHINSTANCE(mod);
 
 		// Get the bitmap as unmanaged
-		HANDLE hbi = LoadImage((HINSTANCE)hinst.ToPointer(), MAKEINTRESOURCE(resource), IMAGE_BITMAP, 0, 0, LR_DEFAULTCOLOR);
+		//HANDLE hbi = LoadImage((HINSTANCE)hinst.ToPointer(), MAKEINTRESOURCE(resource), IMAGE_BITMAP, 0, 0, LR_DEFAULTCOLOR);
+		//HANDLE hbi = LoadImageW((HINSTANCE)hinst.ToPointer(), MAKEINTRESOURCEW(0), 0, 0, 0, LR_DEFAULTCOLOR);
 
 		// import the unmanaged bitmap into the managed side 
-		Bitmap^ bi = Bitmap::FromHbitmap(IntPtr(hbi));
+		//Bitmap^ bi = Bitmap::FromHbitmap(IntPtr(hbi));
 
 		// insert the bitmap into the picture box
-		pictureBox1->Image = bi;
+		//pictureBox1->Image = bi;
 
 		// Free up the unmanaged bitmap
 		//DeleteObject(hbi);
@@ -327,13 +328,13 @@ private: System::Void left_Click(System::Object^  sender, System::EventArgs^  e)
 	IntPtr hinst = Marshal::GetHINSTANCE(mod);
 
 	// Get the bitmap as unmanaged
-	HANDLE hbi = LoadImage((HINSTANCE)hinst.ToPointer(), MAKEINTRESOURCE(resource), IMAGE_BITMAP, 0, 0, LR_DEFAULTCOLOR);
+	//HANDLE hbi = LoadImage((HINSTANCE)hinst.ToPointer(), MAKEINTRESOURCE(resource), IMAGE_BITMAP, 0, 0, LR_DEFAULTCOLOR);
 
 	// import the unmanaged bitmap into the managed side 
-	Bitmap^ bi = Bitmap::FromHbitmap(IntPtr(hbi));
+	//Bitmap^ bi = Bitmap::FromHbitmap(IntPtr(hbi));
 
 	// insert the bitmap into the picture box
-	pictureBox1->Image = bi;
+	//pictureBox1->Image = bi;
 
 	// Free up the unmanaged bitmap
 	//DeleteObject(hbi);

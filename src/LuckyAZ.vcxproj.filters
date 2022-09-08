@@ -65,37 +65,31 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\Desktop\AZicon.ico">
+    <Image Include="UI\AZ.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\..\..\Desktop\xanh.bmp">
+    <Image Include="UI\AZicon.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\..\..\Desktop\1.bmp">
+    <Image Include="UI\new.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\..\..\Desktop\bmp\new.jpg">
+    <Image Include="UI\AZ2.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\..\..\Desktop\bmp\new.bmp">
+    <Image Include="UI\dot.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\..\..\Desktop\bmp\AZ2.bmp">
+    <Image Include="UI\lucky dot.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\..\..\Desktop\bmp\lucky dot.bmp">
+    <Image Include="UI\lucky.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\..\..\Desktop\bmp\lucky.bmp">
+    <Image Include="UI\god.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\..\..\Desktop\bmp\dot.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Desktop\bmp\god.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Desktop\bmp\newgame.bmp">
+    <Image Include="UI\newgame.bmp">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
